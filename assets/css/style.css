@@ -323,10 +323,20 @@ img.figuras {
     justify-content: center;
 
 }
+.redes-sociales a i:hover {
+    transform: rotate(-360deg);
+    transition: 400ms all;
+}
 .redes-sociales a {
     color: #fff;
     font-size: 25px;
     margin-right: 12px;
+    transition: 400ms all;
+
+}
+.redes-sociales {
+    z-index: 1;
+    position: relative;
 }
 .container-no-form {
     background: #fff;
@@ -415,7 +425,9 @@ img.figuras {
 }
 
 .footer-form p {
-    color: #00daa3
+    /* color: #00daa3; */
+    color: #094990;
+
 }
 .container-no__logo-referidos h3 {
     color: #ffb300;
